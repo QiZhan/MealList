@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "E3D616F4-595D-4170-9347-280E6BBD32A6"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CC4175B2-72ED-46CF-B1A3-5C622B2F94BB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MealList/NetworkServices/MealNetworkServices.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "fetchMeals()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CC4175B2-72ED-46CF-B1A3-5C622B2F94BB - 56b01bed3a38cb41"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for MealList.MealNetworkServices.fetchMeals() async throws -&gt; MealList.Meals"
+                  moduleName = "MealList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/qzhan/Desktop/MealList/MealList/NetworkServices/MealNetworkServices.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "596">
+               </Location>
+               <Location
+                  uuid = "CC4175B2-72ED-46CF-B1A3-5C622B2F94BB - 2469e0d60f249546"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for MealList.MealNetworkServices.fetchMeals() async throws -&gt; MealList.Meals"
+                  moduleName = "MealList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/qzhan/Desktop/MealList/MealList/NetworkServices/MealNetworkServices.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "521">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AD37A29C-A08F-443E-AD0F-1E28ECFD9A0B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MealList/ViewModels/MealDetailsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "fetchMealDetails(by:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AD37A29C-A08F-443E-AD0F-1E28ECFD9A0B - 3027487c0f2d9015"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for MealList.MealDetailsViewModel.fetchMealDetails(by: Swift.String) async -&gt; ()"
+                  moduleName = "MealList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/qzhan/Desktop/MealList/MealList/ViewModels/MealDetailsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "3183">
+               </Location>
+               <Location
+                  uuid = "AD37A29C-A08F-443E-AD0F-1E28ECFD9A0B - 3d6087347dc87e16"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for MealList.MealDetailsViewModel.fetchMealDetails(by: Swift.String) async -&gt; ()"
+                  moduleName = "MealList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/qzhan/Desktop/MealList/MealList/ViewModels/MealDetailsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "3187">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "96DC42BA-24F1-4DEC-AA3F-4401B97EE982"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MealList/ViewModels/MealListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "fetchMeals()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "96DC42BA-24F1-4DEC-AA3F-4401B97EE982 - d82020665f089d78"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for MealList.MealListViewModel.fetchMeals() async -&gt; ()"
+                  moduleName = "MealList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/qzhan/Desktop/MealList/MealList/ViewModels/MealListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "159">
+               </Location>
+               <Location
+                  uuid = "96DC42BA-24F1-4DEC-AA3F-4401B97EE982 - 871a3b6d8cdc647b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for MealList.MealListViewModel.fetchMeals() async -&gt; ()"
+                  moduleName = "MealList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/qzhan/Desktop/MealList/MealList/ViewModels/MealListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "164">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
