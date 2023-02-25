@@ -13,13 +13,13 @@ struct MealListView: View {
     
     var body: some View {
         NavigationView {
-            List(vm.meals) { meal in
+            List(vm.mealViewModels) { mealViewModel in
                 NavigationLink {
-                    if let mealId = meal.id {
+                    if let mealId = mealViewModel.id {
                         MealDetailsView(mealId: mealId)
                     }
                 } label: {
-                    MealRowView(meal: meal)
+                    MealRowView(mealViewModel: mealViewModel)
                 }
             }
             .navigationTitle("Meals")

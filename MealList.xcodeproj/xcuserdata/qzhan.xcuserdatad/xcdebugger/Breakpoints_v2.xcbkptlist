@@ -14,8 +14,8 @@
             filePath = "MealList/NetworkServices/MealNetworkServices.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "55"
-            endingLineNumber = "55"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
             landmarkName = "fetchMeals()"
             landmarkType = "7">
             <Locations>
@@ -62,8 +62,8 @@
             filePath = "MealList/ViewModels/MealDetailsViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "19"
-            endingLineNumber = "19"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
             landmarkName = "fetchMealDetails(by:)"
             landmarkType = "7">
             <Locations>
@@ -146,6 +146,132 @@
                   offsetFromSymbolStart = "164">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "603F1CA5-078C-4EA8-A5B4-670BD27CB9EA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MealListTests/MealNetworkServicesTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "testFetchMealsReturnsMealsWhenSuccess()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "603F1CA5-078C-4EA8-A5B4-670BD27CB9EA - 86a767b28ec14aaf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for MealListTests.MealNetworkServicesTests.testFetchMealsReturnsMealsWhenSuccess() async throws -&gt; ()"
+                  moduleName = "MealListTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/qzhan/Desktop/MealList/MealListTests/MealNetworkServicesTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "589">
+               </Location>
+               <Location
+                  uuid = "603F1CA5-078C-4EA8-A5B4-670BD27CB9EA - 8fafb67a21550a88"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for MealListTests.MealNetworkServicesTests.testFetchMealsReturnsMealsWhenSuccess() async throws -&gt; ()"
+                  moduleName = "MealListTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/qzhan/Desktop/MealList/MealListTests/MealNetworkServicesTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "603F1CA5-078C-4EA8-A5B4-670BD27CB9EA - cce6389956a60aad"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for MealListTests.MealNetworkServicesTests.testFetchMealsReturnsMealsWhenSuccess() async throws -&gt; ()"
+                  moduleName = "MealListTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/qzhan/Desktop/MealList/MealListTests/MealNetworkServicesTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "603F1CA5-078C-4EA8-A5B4-670BD27CB9EA - af399a6d0a76aa52"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for MealListTests.MealNetworkServicesTests.testFetchMealsReturnsMealsWhenSuccess() async throws -&gt; ()"
+                  moduleName = "MealListTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/qzhan/Desktop/MealList/MealListTests/MealNetworkServicesTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "77">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "51955CAE-096B-48BA-955F-7187FEB5D0AD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MealList/NetworkServices/MealNetworkServices.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "fetchMeals()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "20DD5022-B5AE-4A5E-8EBB-4AE924BF50E7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MealListTests/MealNetworkServicesTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "data(from:delegate:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9FCCE1C4-370B-4C37-AECD-67FFF5B31DFA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MealList/NetworkServices/UIImageView+Cache.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "load(from:session:imageCache:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

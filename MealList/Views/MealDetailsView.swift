@@ -16,39 +16,43 @@ struct MealDetailsView: View {
     var body: some View {
         ScrollView {
             
-            if let mealImageURL = vm.mealDetails?.strMealThumb {
-                ImageView(url: mealImageURL).frame(width: 200, height: 200).clipShape(Circle())
+            if let mealImageURL = vm.mealThumbStr {
+                ImageView(url: mealImageURL)
+                    .frame(width: 200, height: 200)
+                    .clipShape(Circle())
             }
             
             VStack(alignment: .leading) {
-                if let mealStr = vm.mealDetails?.strMeal {
+                if let mealStr = vm.mealStr {
                     Text(mealStr).font(.title)
                 }
                 
                 HStack {
-                    if let category = vm.mealDetails?.strCategory {
+                    if let category = vm.categoryStr {
                         Text(category)
                     }
                     
                     Spacer()
                     
-                    if let area = vm.mealDetails?.strArea {
+                    if let area = vm.areaStr {
                         Text(area)
                     }
                 }
                 .font(.subheadline)
                 .foregroundColor(.secondary)
                 
-                if let instructions = vm.mealDetails?.strInstructions {
+                if let instructions = vm.instructionsStr {
                     Divider()
-                    Text("Instructions").font(.title2)
+                    Text("Instructions")
+                        .font(.title2)
                     Spacer()
                     Text(instructions)
                 }
                 
-                if let ingredientsAndMeasures = vm.mealDetails?.ingredientsAndMeasures {
+                if let ingredientsAndMeasures = vm.ingredientsAndMeasuresStr {
                     Divider()
-                    Text("Ingredients").font(.title2)
+                    Text("Ingredients")
+                        .font(.title2)
                     Spacer()
                     Text(ingredientsAndMeasures)
                 }

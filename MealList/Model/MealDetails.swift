@@ -86,21 +86,4 @@ extension PropertyReflectable {
     
 }
 
-extension MealDetails: PropertyReflectable {
-    
-    var ingredientsAndMeasures: String {
-        var arr = [String]()
-        
-        for idx in 1...20 {
-            if let ingredient = self["strIngredient\(idx)"] as? String,
-                let measure = self["strMeasure\(idx)"] as? String,
-                !ingredient.isEmpty {
-                let ingredientAndMeasure = ingredient + ": " + measure + "\n"
-                arr.append(ingredientAndMeasure)
-            }
-        }
-        
-        return arr.reduce("") { $0 + $1 }
-    }
-    
-}
+extension MealDetails: PropertyReflectable { }

@@ -14,7 +14,7 @@ class Constants {
 }
 
 protocol Networking {
-    func data(for request: URLRequest, delegate: URLSessionTaskDelegate?) async throws -> (Data, URLResponse)
+    func data(from url: URL, delegate: URLSessionTaskDelegate?) async throws -> (Data, URLResponse)
 }
 
 extension URLSession: Networking {}
@@ -22,14 +22,11 @@ extension URLSession: Networking {}
 protocol MealNetworkServiceProtocol: AnyObject {
     func fetchMeals() async throws -> Meals
     func fetchMealDetails(by mealId: String) async throws -> Recipe
-    func fetchMealImage() async throws -> UIImage?
 }
 
 class MealNetworkServices: MealNetworkServiceProtocol {
     
     enum NetworkServiceError: Error {
-        case failed
-        case badImage
         case invalidUrl, requestError, decodingError, statusNotOk
     }
     
@@ -44,7 +41,7 @@ class MealNetworkServices: MealNetworkServiceProtocol {
             throw NetworkServiceError.invalidUrl
         }
         
-        guard let (data, response) = try? await URLSession.shared.data(from: url) else{
+        guard let (data, response) = try? await session.data(from: url, delegate: nil) else{
             throw NetworkServiceError.requestError
         }
         
@@ -65,7 +62,7 @@ class MealNetworkServices: MealNetworkServiceProtocol {
         }
         url.appendQueryItem(name: "i", value: mealId)
         
-        guard let (data, response) = try? await URLSession.shared.data(from: url) else{
+        guard let (data, response) = try? await session.data(from: url, delegate: nil) else{
             throw NetworkServiceError.requestError
         }
         
@@ -80,17 +77,4 @@ class MealNetworkServices: MealNetworkServiceProtocol {
         return result
     }
     
-    func fetchMealImage() async throws -> UIImage? {
-        let urlStr = Constants.mealDetailsBaseURLStr
-        guard let url = URL(string: urlStr) else {
-            fatalError("Missing URL")
-        }
-        let urlRequest = URLRequest(url: url)
-        let (data, response) = try await session.data(for: urlRequest, delegate: nil)
-        guard (response as? HTTPURLResponse)?.statusCode == 200 else {
-            throw  NetworkServiceError.badImage
-        }
-        
-        return UIImage(data: data)
-    }
 }
